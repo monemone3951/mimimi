@@ -1,0 +1,1 @@
+import{u as o}from"./common-D85n8_uX.js";const e={install(e){const s=window.matchMedia("(prefers-color-scheme: dark)"),a=document.documentElement.classList,c=o({isDark:void 0});e.config.globalProperties.$darkMode=c;const r=o=>{a[o?"add":"remove"]("dark"),c.isDark=o};r(s.matches),s.onchange=o=>{r(o.matches)}}};export{e as d};
